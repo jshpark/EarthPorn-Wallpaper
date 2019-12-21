@@ -2,7 +2,7 @@
 
 A basic Python script that grabs the hottest post on Reddit's /r EarthPorn and changes the user's wallpaper. This script only works in Windows 32/64 bit.  
 
-##Getting Started
+## Getting Started
 First, you must acquire a Secret from Reddit's API. You can do this by using **Reddit's old website**. 
 1. Preferences (next to profile)
 2. Apps
@@ -16,3 +16,4 @@ def startReddit():
     password = 'xxxxxx',
     user_agent = 'xxxxxxxx',
     username = 'xxxxx')
+'''
