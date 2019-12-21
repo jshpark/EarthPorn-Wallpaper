@@ -43,3 +43,5 @@ The path must be an absolute path, and it must contain escape character '\' befo
 ## Final
 Everything is now setup. Run the program, and your wallpaper will change to /r EarthPorn's hottest picture!
 You can also add this to your task scheduler to start the script on login or to run every 2 hours.
+    - Here is a link on how to add it to the task scheduler
+        - https://www.youtube.com/watch?v=n2Cr_YRQk7o
