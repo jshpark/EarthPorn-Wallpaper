@@ -1,6 +1,6 @@
 # EarthPorn-Wallpaper
 
-A basic Python script that grabs the hottest post on Reddit's /r EarthPorn and changes the user's wallpaper. This script only works in Windows 32/64 bit.  
+A basic Python script that grabs the hottest post on Reddit's /r EarthPorn and changes the user's wallpaper. This script only works in Windows 64 bit.  
 
 ## Getting Started
 First, you must acquire a Secret from Reddit's API. You can do this by using **Reddit's old website**. 
@@ -39,3 +39,7 @@ def main():
 The path must be an absolute path, and it must contain escape character '\' before every '\'.
     -ex) C:\\Users\\jshpark\\Desktop\\EarthPorn\\image.jpg
 ***When updating the path, the file name must be image.jpg***
+
+## Final
+Everything is now setup. Run the program, and your wallpaper will change to /r EarthPorn's hottest picture!
+You can also add this to your task scheduler to start the script on login or to run every 2 hours.
