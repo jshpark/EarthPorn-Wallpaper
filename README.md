@@ -36,7 +36,7 @@ def main():
     path = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
     changeWallpaper(path)
 ```
-The path must be an absolute path, and it must contain escape character '\' before every '\'.
+The path must be an absolute path, and it must contain escape character '\\' before every '\\'.
     
     -ex) C:\\Users\\jshpark\\Desktop\\EarthPorn\\image.jpg
 ***When updating the path, the file name must be image.jpg***
