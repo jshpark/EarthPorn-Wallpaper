@@ -9,11 +9,11 @@ First, you must acquire a Secret from Reddit's API. You can do this by using **R
 3. Create an APP 
 -You can use https://localhost8080 for your redirect uri
 4. Fill in appropriate information in the code snippet from wallpaper.py
-'''
+```
 def startReddit():
     reddit = praw.Reddit(client_id='xxxxx',
     client_secret = 'xxxxxxx',
     password = 'xxxxxx',
     user_agent = 'xxxxxxxx',
     username = 'xxxxx')
-'''
+```
