@@ -33,9 +33,6 @@ def changeWallpaper(path):
     ctypes.windll.user32.SystemParametersInfoW(20, 0, path, 3)
     return;
 
-def check64Bit():
-    return struct.calcsize('P') * 8 == 64
-
 def main():
     reddit = startReddit()
     topPostUrl = getTopPost(reddit)
