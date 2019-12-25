@@ -13,7 +13,6 @@ def startReddit():
     return reddit
 
 def getTopPost(reddit):
-    count = 1
     posts = []
     for topPost in reddit.subreddit('EarthPorn').hot(limit=5):
         posts.append(topPost.url)
