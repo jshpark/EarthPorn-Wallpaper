@@ -13,8 +13,13 @@ def startReddit():
     return reddit
 
 def getTopPost(reddit):
-    for topPost in reddit.subreddit('EarthPorn').hot(limit=1):
-        return topPost.url
+    count = 1
+    posts = []
+    for topPost in reddit.subreddit('EarthPorn').hot(limit=5):
+        posts.append(topPost.url)
+    for validPost in posts:
+        if ".jpg" in validPost:
+            return validPost
 
 def parseUrl(url):
     data = url.split('/')
